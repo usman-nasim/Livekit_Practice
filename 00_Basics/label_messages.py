@@ -18,7 +18,7 @@ from livekit.plugins import cartesia, deepgram, silero, google, noise_cancellati
 from livekit.agents import JobContext, WorkerOptions, cli, ConversationItemAddedEvent
 from livekit.agents.voice import Agent, AgentSession
 
-load_dotenv(dotenv_path=Path(__file__).parent.parent.parent / '.env')
+load_dotenv(dotenv_path=Path(__file__).parent.parent / '.env')
 
 
 logger = logging.getLogger("label-messages")
