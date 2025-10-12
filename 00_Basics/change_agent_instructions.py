@@ -2,7 +2,7 @@
 ---
 title: Change Agent Instructions
 category: basics
-tags: [instructions, openai, deepgram, google, cartesia, silero]
+tags: [instructions, deepgram, google, cartesia, silero]
 difficulty: beginner
 description: Shows how to change the instructions of an agent using Deepgram, Google, and Cartesia.
 demonstrates:

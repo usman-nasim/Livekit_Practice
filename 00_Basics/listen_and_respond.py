@@ -2,7 +2,7 @@
 ---
 title: Listen and Respond
 category: basics
-tags: [listen, respond, openai, deepgram]
+tags: [listen, respond, google, deepgram]
 difficulty: beginner
 description: Shows how to create an agent that can listen to the user and respond.
 demonstrates:

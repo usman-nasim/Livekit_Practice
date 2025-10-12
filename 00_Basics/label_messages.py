@@ -2,7 +2,7 @@
 ---
 title: Conversation Event Monitoring Agent
 category: basics
-tags: [events, conversation-monitoring, logging, deepgram, openai]
+tags: [events, conversation-monitoring, logging, deepgram, google]
 difficulty: beginner
 description: Shows how to monitor and log conversation events as they occur, useful for debugging and understanding agent-user interactions.
 demonstrates:
