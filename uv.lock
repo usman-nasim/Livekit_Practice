@@ -772,6 +772,9 @@ codecs = [
     { name = "av" },
     { name = "numpy" },
 ]
+inworld = [
+    { name = "livekit-plugins-inworld" },
+]
 
 [[package]]
 name = "livekit-api"
@@ -843,6 +846,18 @@ wheels = [
 ]
 
 [[package]]
+name = "livekit-plugins-inworld"
+version = "1.2.14"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "livekit-agents" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/3d/b6/2b9f0786616a637ad41b08cd2791d782aef9e32571df0e31515b87734560/livekit_plugins_inworld-1.2.14.tar.gz", hash = "sha256:52ec2d05663c1e9da03003fb75d6fca15d78d60b67b289b944344d8162caf2cb", size = 5976, upload-time = "2025-10-01T17:55:35.532Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/e1/c4/dfee5e70270cc24b08a49b08ed8e4a98a7063529638f6859506c3979ed94/livekit_plugins_inworld-1.2.14-py3-none-any.whl", hash = "sha256:b8e9e0be6ca5f3821abddb9dc0ee0ac777917fe9644229864a2ebcf508c6be91", size = 6471, upload-time = "2025-10-01T17:55:34.68Z" },
+]
+
+[[package]]
 name = "livekit-plugins-noise-cancellation"
 version = "0.2.5"
 source = { registry = "https://pypi.org/simple" }
@@ -893,7 +908,7 @@ version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
     { name = "livekit" },
-    { name = "livekit-agents" },
+    { name = "livekit-agents", extra = ["inworld"] },
     { name = "livekit-plugins-cartesia" },
     { name = "livekit-plugins-deepgram" },
     { name = "livekit-plugins-google" },
@@ -906,7 +921,7 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "livekit", specifier = ">=1.0.16" },
-    { name = "livekit-agents", specifier = ">=1.2.14" },
+    { name = "livekit-agents", extras = ["inworld"], specifier = ">=1.2.14" },
     { name = "livekit-plugins-cartesia", specifier = ">=1.2.14" },
     { name = "livekit-plugins-deepgram", specifier = ">=1.2.14" },
     { name = "livekit-plugins-google", specifier = ">=1.2.14" },
