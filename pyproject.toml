@@ -5,6 +5,9 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "aiohttp>=3.13.0",
+    "annoy>=1.17.3",
+    "bs4>=0.0.2",
     "livekit>=1.0.16",
     "livekit-agents[inworld]>=1.2.14",
     "livekit-plugins-cartesia>=1.2.14",
@@ -13,5 +16,6 @@ dependencies = [
     "livekit-plugins-noise-cancellation>=0.2.5",
     "livekit-plugins-silero>=1.2.14",
     "livekit-plugins-turn-detector>=1.2.14",
+    "lxml>=6.0.2",
     "python-dotenv>=1.1.1",
 ]
