@@ -9,7 +9,7 @@ import aiohttp
 from bs4 import BeautifulSoup
 from dotenv import load_dotenv
 
-# Configure logging
+# Configure loggingvff
 logging.basicConfig(
     level=logging.INFO, format="%(asctime)s - %(name)s - %(levelname)s - %(message)s"
 )
